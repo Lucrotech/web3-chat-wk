@@ -70,10 +70,10 @@ export default function Home() {
       {/* Display the ConnectWallet component if not connected */}
       {!isConnected && (
         <div className={styles.thirdWeb}>
-          <img
-            src="thirdweb-logo-transparent-white.svg"
+          <img className={styles.logo}
+            /*src="thirdweb-logo-transparent-white.svg"
             alt="Your image description"
-            width={200}
+            width={200}*/
           />
           <ConnectWallet theme="dark" />
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className={styles.xmtp}>
           <ConnectWallet theme="light" />
           <button onClick={initXmtp} className={styles.btnXmtp}>
-            Connect to XMTP
+            Connect to X-Omnium
           </button>
         </div>
       )}

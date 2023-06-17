@@ -10,12 +10,19 @@
   align-items: flex-start;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 40px 5%;
+  padding: 40px 2%;
   justify-content: right;
   background-color: black;
   height: 100vh;
 }
 
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 2%;
+  justify-content: right;
+}
 
 .xmtp{
   display: flex;
