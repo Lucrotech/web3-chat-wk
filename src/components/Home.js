@@ -6,7 +6,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Chat from "./Chat";
 import styles from "./Home.module.css";
 
-const PEER_ADDRESS = "0x937C0d4a6294cdfa575de17382c7076b579DC176";
+const PEER_ADDRESS = "0x609694bAbAECC591E803ADFD13Ef5BeA3A890633";
 
 export default function Home() {
   const [messages, setMessages] = useState(null);
